@@ -1,0 +1,39 @@
+# ---------------------------------------------------------------------------
+# Personal data - do NOT commit any of this
+# A HAR file contains your session cookies and account details.
+# ---------------------------------------------------------------------------
+*.har
+!examples/*.har
+
+# Extracted vocabulary and generated outputs (your personal word list)
+*.csv
+!examples/*.csv
+
+*.json
+!examples/*.json
+
+# Diagnostic output
+diagnostic_report.txt
+diagnostic_*.txt
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+.pytest_cache/
+
+# ---------------------------------------------------------------------------
+# Editors and operating systems
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

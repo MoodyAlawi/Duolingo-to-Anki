@@ -1,0 +1,7 @@
+# This project uses ONLY the Python standard library.
+# There are no third-party dependencies to install.
+#
+# Requires Python 3.10 or newer.
+#
+# Running this command is harmless and completes without installing anything:
+#     python -m pip install -r requirements.txt
